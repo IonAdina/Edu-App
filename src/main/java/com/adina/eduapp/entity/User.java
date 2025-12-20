@@ -68,4 +68,13 @@ public abstract class User implements UserDetails{
         return true;
     }
 
+    public String getUserType() {
+        if (this instanceof Student) {
+            return "STUDENT";
+        } else if (this instanceof Professor) {
+            return "PROFESSOR";
+        }
+            return null;
+        }
+
 }
