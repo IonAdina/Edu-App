@@ -22,4 +22,8 @@ public class Enrollment {
     private Course course;
 
     private Integer grade;
+
+    @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
+    private EnrollmentStatus enrollmentStatus;
 }

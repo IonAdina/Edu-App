@@ -85,6 +85,11 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Validation (DTO validation: @NotBlank, @Email, @Size) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
 
     </dependencies>
 
