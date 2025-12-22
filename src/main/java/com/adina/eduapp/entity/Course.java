@@ -16,4 +16,6 @@ public class Course {
     @ManyToOne
     @JoinColumn(name = "professor_id")
     private Professor professor;
+
+    private String name;
 }
