@@ -14,4 +14,5 @@ public class EnrollmentResponseDto {
     private CourseResponseDto course;
     private EnrollmentStatus enrollmentStatus;
     private Integer grade;
+    private UserResponseDto student;
 }

@@ -1,4 +1,4 @@
-package com.adina.eduapp.validator;
+package com.adina.eduapp;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
